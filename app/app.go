@@ -26,7 +26,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/supply"
 )
 
-const appName = "app1"
+const appName = "app12"
 
 var (
 	// default home directories for the application CLI
