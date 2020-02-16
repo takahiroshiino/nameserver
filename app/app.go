@@ -26,13 +26,12 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/supply"
 )
 
-const appName = "app"
+const appName = "app1"
 
 var (
 	// default home directories for the application CLI
 	// TODO: rename your cli
 	DefaultCLIHome = os.ExpandEnv("$HOME/.acli")
-
 	// DefaultNodeHome sets the folder where the applcation data and configuration will be stored
 	// TODO: rename your daemon
 	DefaultNodeHome = os.ExpandEnv("$HOME/.aud")
